@@ -1,3 +1,4 @@
+//hola
 #include <stdio.h>
 #include <conio.h>
 #include <windows.h>
@@ -71,11 +72,11 @@ scanf("%d",&pup);
 
 
 if (pup==4){if (can1==0){printf("\nNo hay mas!\n");cont=1;}
-else {printf("\nPortaviones");cont==0;}}
+else {printf("\nPortaviones");cont=0;}}
 if (pup==3){if (can2==0){printf("\nNo hay mas!\n");cont=1;}
-else {printf("\nSubmarinos");cont==0;}}
+else {printf("\nSubmarinos");cont=0;}}
 if (pup==2){if (can3==0){printf("\nNo hay mas!\n");cont=1;}
-else {printf("\nCruceros");cont==0;}}
+else {printf("\nCruceros");cont=0;}}
 if (pup<2 || pup>4){printf("\nERROR!! >.<");cont=1;}
 }while(cont==1);
 
